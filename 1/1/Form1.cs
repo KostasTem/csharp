@@ -35,6 +35,7 @@ namespace _1
                 textBox1.Visible = false;
                 label1.Visible = false;
                 comboBox1.Visible = false;
+                menuStrip1.Enabled = false;
                 int x = 0;
                 int y = 0;
                 for (int i = 0; i < result; i++)
@@ -219,6 +220,7 @@ namespace _1
             label1.Visible = true;
             textBox1.Visible = true;
             comboBox1.Visible = true;
+            menuStrip1.Enabled = true;
             for (int l = 0; l < im * im; l++)
             {
                 panel1.Controls.Remove(buttons[l]);
